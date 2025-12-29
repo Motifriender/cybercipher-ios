@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0000010000000000000001 /* MinimalSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001010000000000000001 /* MinimalSwiftUIAppApp.swift */; };
+		AA0000020000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001010000000000000002 /* ContentView.swift */; };
+		AA0000030000000000000003 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001010000000000000003 /* PlaceholderView.swift */; };
+		AA0000040000000000000004 /* PlaceholderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001010000000000000004 /* PlaceholderModel.swift */; };
+		AA0000050000000000000005 /* PlaceholderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001010000000000000005 /* PlaceholderService.swift */; };
+		AA0000060000000000000006 /* PlaceholderCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001010000000000000006 /* PlaceholderCrypto.swift */; };
+		AA0000070000000000000007 /* PlaceholderStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001010000000000000007 /* PlaceholderStorage.swift */; };
+		AA0000080000000000000008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0001010000000000000008 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0001010000000000000001 /* MinimalSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalSwiftUIAppApp.swift; sourceTree = "<group>"; };
+		AA0001010000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA0001010000000000000003 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		AA0001010000000000000004 /* PlaceholderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderModel.swift; sourceTree = "<group>"; };
+		AA0001010000000000000005 /* PlaceholderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderService.swift; sourceTree = "<group>"; };
+		AA0001010000000000000006 /* PlaceholderCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderCrypto.swift; sourceTree = "<group>"; };
+		AA0001010000000000000007 /* PlaceholderStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderStorage.swift; sourceTree = "<group>"; };
+		AA0001010000000000000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0001010000000000000009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0001010000000000000010 /* MinimalSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MinimalSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0002010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0003010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				AA0003010000000000000002 /* MinimalSwiftUIApp */,
+				AA0003010000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0003010000000000000002 /* MinimalSwiftUIApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA0001010000000000000008 /* Assets.xcassets */,
+				AA0001010000000000000009 /* Info.plist */,
+				AA0001010000000000000001 /* MinimalSwiftUIAppApp.swift */,
+				AA0003010000000000000004 /* Models */,
+				AA0003010000000000000005 /* Services */,
+				AA0003010000000000000006 /* Crypto */,
+				AA0003010000000000000007 /* Storage */,
+				AA0003010000000000000008 /* Views */,
+			);
+			path = MinimalSwiftUIApp;
+			sourceTree = "<group>";
+		};
+		AA0003010000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0001010000000000000010 /* MinimalSwiftUIApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0003010000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA0001010000000000000004 /* PlaceholderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA0003010000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA0001010000000000000005 /* PlaceholderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA0003010000000000000006 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				AA0001010000000000000006 /* PlaceholderCrypto.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		AA0003010000000000000007 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				AA0001010000000000000007 /* PlaceholderStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		AA0003010000000000000008 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA0001010000000000000002 /* ContentView.swift */,
+				AA0001010000000000000003 /* PlaceholderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0004010000000000000001 /* MinimalSwiftUIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0007010000000000000001 /* Build configuration list for PBXNativeTarget "MinimalSwiftUIApp" */;
+			buildPhases = (
+				AA0005010000000000000001 /* Sources */,
+				AA0005020000000000000001 /* Frameworks */,
+				AA0005030000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinimalSwiftUIApp;
+			productName = MinimalSwiftUIApp;
+			productReference = AA0001010000000000000010 /* MinimalSwiftUIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0006010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					AA0004010000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = AA0007020000000000000001 /* Build configuration list for PBXProject "MinimalSwiftUIApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0003010000000000000001;
+			productRefGroup = AA0003010000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0004010000000000000001 /* MinimalSwiftUIApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0005030000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000080000000000000008 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0005010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000010000000000000001 /* MinimalSwiftUIAppApp.swift in Sources */,
+				AA0000020000000000000002 /* ContentView.swift in Sources */,
+				AA0000030000000000000003 /* PlaceholderView.swift in Sources */,
+				AA0000040000000000000004 /* PlaceholderModel.swift in Sources */,
+				AA0000050000000000000005 /* PlaceholderService.swift in Sources */,
+				AA0000060000000000000006 /* PlaceholderCrypto.swift in Sources */,
+				AA0000070000000000000007 /* PlaceholderStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0008010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MinimalSwiftUIApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MinimalSwiftUIApp;
+				PRODUCT_NAME = MinimalSwiftUIApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0008010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MinimalSwiftUIApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MinimalSwiftUIApp;
+				PRODUCT_NAME = MinimalSwiftUIApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0008020000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0008020000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0007010000000000000001 /* Build configuration list for PBXNativeTarget "MinimalSwiftUIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0008010000000000000001 /* Debug */,
+				AA0008010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA0007020000000000000001 /* Build configuration list for PBXProject "MinimalSwiftUIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0008020000000000000001 /* Debug */,
+				AA0008020000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0006010000000000000001 /* Project object */;
+}
+
