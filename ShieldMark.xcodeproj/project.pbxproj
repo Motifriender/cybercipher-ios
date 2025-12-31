@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A6A5B6A5B6000000000001 /* ShieldMarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000011 /* ShieldMarkApp.swift */; };
+		11A6A5B6A5B6000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000012 /* ContentView.swift */; };
+		11A6A5B6A5B6000000000003 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000013 /* HomeView.swift */; };
+		11A6A5B6A5B6000000000004 /* CreateProofView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000014 /* CreateProofView.swift */; };
+		11A6A5B6A5B6000000000005 /* VerifyProofView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000015 /* VerifyProofView.swift */; };
+		11A6A5B6A5B6000000000006 /* LockdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000016 /* LockdownView.swift */; };
+		11A6A5B6A5B6000000000007 /* IncidentTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000017 /* IncidentTimelineView.swift */; };
+		11A6A5B6A5B6000000000081 /* RecoveryAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000080 /* RecoveryAssistantView.swift */; };
+		11A6A5B6A5B6000000000008 /* ProofPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000021 /* ProofPayload.swift */; };
+		11A6A5B6A5B6000000000009 /* ProofRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000022 /* ProofRecord.swift */; };
+		11A6A5B6A5B600000000000A /* VaultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000023 /* VaultItem.swift */; };
+		11A6A5B6A5B600000000000B /* IncidentEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000024 /* IncidentEvent.swift */; };
+		11A6A5B6A5B600000000000C /* LockdownState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000025 /* LockdownState.swift */; };
+		11A6A5B6A5B600000000000D /* TrustedDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000026 /* TrustedDevice.swift */; };
+		11A6A5B6A5B6000000000043 /* CryptoSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000040 /* CryptoSigner.swift */; };
+		11A6A5B6A5B6000000000044 /* ProofHasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000041 /* ProofHasher.swift */; };
+		11A6A5B6A5B6000000000045 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000042 /* KeychainStore.swift */; };
+		11A6A5B6A5B6000000000065 /* AppPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000060 /* AppPaths.swift */; };
+		11A6A5B6A5B6000000000066 /* IncidentLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000061 /* IncidentLogger.swift */; };
+		11A6A5B6A5B6000000000067 /* LockdownStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000062 /* LockdownStateMachine.swift */; };
+		11A6A5B6A5B6000000000068 /* VaultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000063 /* VaultStore.swift */; };
+		11A6A5B6A5B6000000000069 /* ProofStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000064 /* ProofStore.swift */; };
+		11A6A5B6A5B6000000000071 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000070 /* AppContainer.swift */; };
+		11A6A5B6A5B600000000000E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000030 /* Assets.xcassets */; };
+
+		11A6A5B6A5B6000000000101 /* ShieldMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A5B6A5B6000000000102 /* ShieldMarkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A6A5B6A5B6000000000201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A6A5B6A5B6000000001000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A6A5B6A5B6000000002000;
+			remoteInfo = ShieldMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A6A5B6A5B6000000000011 /* ShieldMarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldMarkApp.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000013 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000014 /* CreateProofView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProofView.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000015 /* VerifyProofView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyProofView.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000016 /* LockdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockdownView.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000017 /* IncidentTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentTimelineView.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000080 /* RecoveryAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryAssistantView.swift; sourceTree = "<group>"; };
+
+		11A6A5B6A5B6000000000021 /* ProofPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofPayload.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000022 /* ProofRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofRecord.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000023 /* VaultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultItem.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000024 /* IncidentEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentEvent.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000025 /* LockdownState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockdownState.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000026 /* TrustedDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrustedDevice.swift; sourceTree = "<group>"; };
+
+		11A6A5B6A5B6000000000040 /* CryptoSigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSigner.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000041 /* ProofHasher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofHasher.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000042 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+
+		11A6A5B6A5B6000000000060 /* AppPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPaths.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000061 /* IncidentLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentLogger.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000062 /* LockdownStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockdownStateMachine.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000063 /* VaultStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultStore.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000064 /* ProofStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofStore.swift; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000070 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+
+		11A6A5B6A5B6000000000030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A6A5B6A5B6000000000031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+		11A6A5B6A5B6000000000102 /* ShieldMarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldMarkTests.swift; sourceTree = "<group>"; };
+
+		11A6A5B6A5B6000000003000 /* ShieldMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ShieldMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A6A5B6A5B6000000003001 /* ShieldMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ShieldMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A6A5B6A5B6000000004002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A6A5B6A5B6000000004102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A6A5B6A5B6000000005000 = {
+			isa = PBXGroup;
+			children = (
+				11A6A5B6A5B6000000005100 /* ShieldMark */,
+				11A6A5B6A5B6000000005200 /* ShieldMarkTests */,
+				11A6A5B6A5B6000000005300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+
+		11A6A5B6A5B6000000005100 /* ShieldMark */ = {
+			isa = PBXGroup;
+			children = (
+				11A6A5B6A5B6000000000011 /* ShieldMarkApp.swift */,
+				11A6A5B6A5B6000000000070 /* AppContainer.swift */,
+				11A6A5B6A5B6000000000012 /* ContentView.swift */,
+				11A6A5B6A5B6000000005400 /* Views */,
+				11A6A5B6A5B6000000005500 /* Domain */,
+				11A6A5B6A5B6000000005600 /* Crypto */,
+				11A6A5B6A5B6000000005700 /* Storage */,
+				11A6A5B6A5B6000000005800 /* Services */,
+				11A6A5B6A5B6000000000030 /* Assets.xcassets */,
+				11A6A5B6A5B6000000000031 /* Info.plist */,
+			);
+			path = ShieldMark;
+			sourceTree = "<group>";
+		};
+
+		11A6A5B6A5B6000000005400 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11A6A5B6A5B6000000000013 /* HomeView.swift */,
+				11A6A5B6A5B6000000000014 /* CreateProofView.swift */,
+				11A6A5B6A5B6000000000015 /* VerifyProofView.swift */,
+				11A6A5B6A5B6000000000016 /* LockdownView.swift */,
+				11A6A5B6A5B6000000000017 /* IncidentTimelineView.swift */,
+				11A6A5B6A5B6000000000080 /* RecoveryAssistantView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+
+		11A6A5B6A5B6000000005500 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				11A6A5B6A5B6000000000021 /* ProofPayload.swift */,
+				11A6A5B6A5B6000000000022 /* ProofRecord.swift */,
+				11A6A5B6A5B6000000000023 /* VaultItem.swift */,
+				11A6A5B6A5B6000000000024 /* IncidentEvent.swift */,
+				11A6A5B6A5B6000000000025 /* LockdownState.swift */,
+				11A6A5B6A5B6000000000026 /* TrustedDevice.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+
+		11A6A5B6A5B6000000005600 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				11A6A5B6A5B6000000000040 /* CryptoSigner.swift */,
+				11A6A5B6A5B6000000000041 /* ProofHasher.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+
+		11A6A5B6A5B6000000005700 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				11A6A5B6A5B6000000000042 /* KeychainStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+
+		11A6A5B6A5B6000000005800 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11A6A5B6A5B6000000000060 /* AppPaths.swift */,
+				11A6A5B6A5B6000000000061 /* IncidentLogger.swift */,
+				11A6A5B6A5B6000000000062 /* LockdownStateMachine.swift */,
+				11A6A5B6A5B6000000000063 /* VaultStore.swift */,
+				11A6A5B6A5B6000000000064 /* ProofStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+
+		11A6A5B6A5B6000000005200 /* ShieldMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				11A6A5B6A5B6000000000102 /* ShieldMarkTests.swift */,
+			);
+			path = ShieldMarkTests;
+			sourceTree = "<group>";
+		};
+
+		11A6A5B6A5B6000000005300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A6A5B6A5B6000000003000 /* ShieldMark.app */,
+				11A6A5B6A5B6000000003001 /* ShieldMarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A6A5B6A5B6000000002000 /* ShieldMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A6A5B6A5B6000000007000 /* Build configuration list for PBXNativeTarget "ShieldMark" */;
+			buildPhases = (
+				11A6A5B6A5B6000000004000 /* Sources */,
+				11A6A5B6A5B6000000004001 /* Resources */,
+				11A6A5B6A5B6000000004002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShieldMark;
+			productName = ShieldMark;
+			productReference = 11A6A5B6A5B6000000003000 /* ShieldMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+
+		11A6A5B6A5B6000000002100 /* ShieldMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A6A5B6A5B6000000007100 /* Build configuration list for PBXNativeTarget "ShieldMarkTests" */;
+			buildPhases = (
+				11A6A5B6A5B6000000004100 /* Sources */,
+				11A6A5B6A5B6000000004102 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A6A5B6A5B6000000002200 /* PBXTargetDependency */,
+			);
+			name = ShieldMarkTests;
+			productName = ShieldMarkTests;
+			productReference = 11A6A5B6A5B6000000003001 /* ShieldMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A6A5B6A5B6000000001000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					11A6A5B6A5B6000000002000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					11A6A5B6A5B6000000002100 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 11A6A5B6A5B6000000006000 /* Build configuration list for PBXProject "ShieldMark" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A6A5B6A5B6000000005000;
+			productRefGroup = 11A6A5B6A5B6000000005300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A6A5B6A5B6000000002000 /* ShieldMark */,
+				11A6A5B6A5B6000000002100 /* ShieldMarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A6A5B6A5B6000000004001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A6A5B6A5B600000000000E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A6A5B6A5B6000000004000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A6A5B6A5B6000000000001 /* ShieldMarkApp.swift in Sources */,
+				11A6A5B6A5B6000000000071 /* AppContainer.swift in Sources */,
+				11A6A5B6A5B6000000000002 /* ContentView.swift in Sources */,
+				11A6A5B6A5B6000000000003 /* HomeView.swift in Sources */,
+				11A6A5B6A5B6000000000004 /* CreateProofView.swift in Sources */,
+				11A6A5B6A5B6000000000005 /* VerifyProofView.swift in Sources */,
+				11A6A5B6A5B6000000000006 /* LockdownView.swift in Sources */,
+				11A6A5B6A5B6000000000007 /* IncidentTimelineView.swift in Sources */,
+				11A6A5B6A5B6000000000081 /* RecoveryAssistantView.swift in Sources */,
+				11A6A5B6A5B6000000000008 /* ProofPayload.swift in Sources */,
+				11A6A5B6A5B6000000000009 /* ProofRecord.swift in Sources */,
+				11A6A5B6A5B600000000000A /* VaultItem.swift in Sources */,
+				11A6A5B6A5B600000000000B /* IncidentEvent.swift in Sources */,
+				11A6A5B6A5B600000000000C /* LockdownState.swift in Sources */,
+				11A6A5B6A5B600000000000D /* TrustedDevice.swift in Sources */,
+				11A6A5B6A5B6000000000043 /* CryptoSigner.swift in Sources */,
+				11A6A5B6A5B6000000000044 /* ProofHasher.swift in Sources */,
+				11A6A5B6A5B6000000000045 /* KeychainStore.swift in Sources */,
+				11A6A5B6A5B6000000000065 /* AppPaths.swift in Sources */,
+				11A6A5B6A5B6000000000066 /* IncidentLogger.swift in Sources */,
+				11A6A5B6A5B6000000000067 /* LockdownStateMachine.swift in Sources */,
+				11A6A5B6A5B6000000000068 /* VaultStore.swift in Sources */,
+				11A6A5B6A5B6000000000069 /* ProofStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+		11A6A5B6A5B6000000004100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A6A5B6A5B6000000000101 /* ShieldMarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A6A5B6A5B6000000002200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A6A5B6A5B6000000002000 /* ShieldMark */;
+			targetProxy = 11A6A5B6A5B6000000000201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11A6A5B6A5B6000000008000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+
+		11A6A5B6A5B6000000008001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+
+		11A6A5B6A5B6000000008100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShieldMark/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShieldMark;
+				PRODUCT_NAME = ShieldMark;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+
+		11A6A5B6A5B6000000008101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShieldMark/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShieldMark;
+				PRODUCT_NAME = ShieldMark;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+
+		11A6A5B6A5B6000000008200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShieldMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShieldMark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShieldMark";
+			};
+			name = Debug;
+		};
+
+		11A6A5B6A5B6000000008201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShieldMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShieldMark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShieldMark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A6A5B6A5B6000000006000 /* Build configuration list for PBXProject "ShieldMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A6A5B6A5B6000000008000 /* Debug */,
+				11A6A5B6A5B6000000008001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+
+		11A6A5B6A5B6000000007000 /* Build configuration list for PBXNativeTarget "ShieldMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A6A5B6A5B6000000008100 /* Debug */,
+				11A6A5B6A5B6000000008101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+
+		11A6A5B6A5B6000000007100 /* Build configuration list for PBXNativeTarget "ShieldMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A6A5B6A5B6000000008200 /* Debug */,
+				11A6A5B6A5B6000000008201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A6A5B6A5B6000000001000 /* Project object */;
+}
+
